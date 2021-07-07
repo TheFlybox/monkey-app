@@ -1,0 +1,30 @@
+{
+  "name": "monkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./public/index.html --no-source-maps --no-cache",
+    "build": "parcel build ./public/index.html --no-source-maps --no-cache"
+  },
+  "keywords": [],
+  "author": "teamflybox",
+  "license": "MIT",
+  "dependencies": {
+    "@ionic/react": "^5.6.11",
+    "@ionic/react-router": "^5.6.11",
+    "leaflet": "^1.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-leaflet": "^3.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.7.4",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "@types/react-router-dom": "^5.1.7",
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
