@@ -1,0 +1,30 @@
+.empty-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 4rem;
+}
+.empty-list ion-icon{
+  font-size: 100px;
+  color: #ddd;
+  margin-bottom: 0.5rem;
+}
+.empty-list span{
+  display: flex;
+}
+
+.empty-list .empty-list-title{
+  font-weight: 500;
+  color: #999;
+  font-size: 22px;
+  margin-bottom: 0.2rem;
+}
+.empty-list .empty-list-subtitle{
+  font-weight: 500;
+  color: #bbb;
+  font-size: 16px;
+  margin-top: 0.2rem;
+}

@@ -26,5 +26,15 @@
     "@types/react-dom": "^17.0.8",
     "@types/react-router-dom": "^5.1.7",
     "parcel": "^2.0.0-beta.3.1"
+  },
+  "alias": {
+    "assets": "./src/assets",
+    "constants": "./src/constants",
+    "components": "./src/components",
+    "containers": "./src/containers",
+    "contexts": "./src/contexts",
+    "models": "./src/models",
+    "services": "./src/services",
+    "views": "./src/views"
   }
 }
