@@ -21,12 +21,11 @@ import {
 import EmptyList from 'components/empty-list/empty-list.component';
 import routes from 'constants/routes';
 import AccidentFormContext from 'contexts/accident-form.context';
-import Vehicle from 'models/vehicle.model';
 
-export default function VehicleList() {
+export default function PhotosList() {
 	const context = useContext(AccidentFormContext);
 	const [preset] = useIonAlert();
-	const [vehicles, setVehicles] = useState(context.accident.vehicles);
+	const [photos, setPhotos] = useState(context.accident.photos);
 
 	return (
 		<IonPage>
@@ -35,12 +34,12 @@ export default function VehicleList() {
 					<IonButtons slot='start'>
 						<IonBackButton defaultHref={routes.default}></IonBackButton>
 					</IonButtons>
-					<IonTitle>Lista de vehiculos</IonTitle>
+					<IonTitle>Lista de fotos</IonTitle>
 					<IonButtons slot='end'>
 						<IonButton
 							routerLink={routes.accident.vehicles.create}
 							onClick={() => {
-								context.setVehicle(new Vehicle());
+								//context.setVehicle(new Vehicle());
 							}}>
 							<IonIcon
 								color='primary'
@@ -51,20 +50,20 @@ export default function VehicleList() {
 				</IonToolbar>
 			</IonHeader>
 			<IonContent>
-				{vehicles.length === 0 ? <EmptyList /> : null}
+				{photos.length === 0 ? <EmptyList /> : null}
 				<IonList lines='full'>
-					{vehicles.map((x, i) => {
+					{photos.map((x, i) => {
 						return (
 							<IonItemSliding key={i}>
 								<IonItem
 									button
 									routerLink={routes.accident.vehicles.edit}
 									onClick={() => {
-										context.setVehicle(x);
+										//context.setVehicle(x);
 									}}>
 									<IonText slot='start' style={{ padding: '0.7rem 0rem' }}>
 										<span>
-											{x.make} {x.model} ({x.color})
+											{x.name}
 										</span>
 										<br />
 										<small style={{ color: '#aaa' }}>ID: {x.id}</small>
@@ -84,7 +83,7 @@ export default function VehicleList() {
 												buttons: [
 													'Cancelar',
 													{ text: 'Ok', handler: (d) => {
-														context.deleteVehicle(x);
+														//context.deleteVehicle(x);
 													} }
 												]
 											})

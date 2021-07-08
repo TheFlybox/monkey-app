@@ -14,6 +14,7 @@
     "@ionic/react": "^5.6.11",
     "@ionic/react-router": "^5.6.11",
     "leaflet": "^1.7.1",
+    "nanoid": "^3.1.23",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-leaflet": "^3.2.0",

@@ -8,6 +8,7 @@ specifiers:
   '@types/react-dom': ^17.0.8
   '@types/react-router-dom': ^5.1.7
   leaflet: ^1.7.1
+  nanoid: ^3.1.23
   parcel: ^2.0.0-beta.3.1
   react: ^17.0.2
   react-dom: ^17.0.2
@@ -19,6 +20,7 @@ dependencies:
   '@ionic/react': 5.6.11_react-dom@17.0.2+react@17.0.2
   '@ionic/react-router': 5.6.11_39fbe2c2039e5bae57d23f8c646bdfb2
   leaflet: 1.7.1
+  nanoid: 3.1.23
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-leaflet: 3.2.0_91fa1427a3331e02931dfea77720a290
@@ -3399,7 +3401,6 @@ packages:
     resolution: {integrity: sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-    dev: true
 
   /nanomatch/1.2.13:
     resolution: {integrity: sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA==}

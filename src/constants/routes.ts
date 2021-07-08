@@ -26,6 +26,10 @@ export default {
       licensePlate: {
         form: '/accident/vehicles/license-plate'
       }
+    },
+    photos: {
+      list: '/accident/photos/list',
+      upload: '/accident/photos/upload'
     }
   }
 }
