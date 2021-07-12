@@ -12,7 +12,7 @@ const menuItems = [
   { text: 'Ayuda', icon: 'help-outline', url: '' },
   { text: 'Consejos', icon: 'bulb-outline', url: '' },
   { text: 'Reseñas', icon: 'thumbs-up-outline', url: '' },
-  { text: 'Cerrar sesion', icon: 'log-out-outline', url: '' }
+  { text: 'Cerrar sesion', icon: 'log-out-outline', url: routes.login.form }
 ];
 
 export { menuItems }

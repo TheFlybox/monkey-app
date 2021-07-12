@@ -31,5 +31,14 @@ export default {
       list: '/accident/photos/list',
       upload: '/accident/photos/upload'
     }
+  },
+  login: {
+    form: '/login'
+  },
+  signUp: {
+    form: '/sign-up'
+  },
+  forgotPassword: {
+    form: '/forgot-password'
   }
 }

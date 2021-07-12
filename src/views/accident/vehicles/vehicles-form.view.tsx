@@ -42,6 +42,10 @@ const VehicleFormPage = (props: VehicleFormPageProps) => {
 		console.log(vehicle);
 	}, [vehicle]);
 
+	useEffect(()=>{
+		setVehicle(context.vehicle)
+	}, [context.vehicle])
+
 	return (
 		<IonPage>
 			<IonHeader>
@@ -160,7 +164,10 @@ const VehicleFormPage = (props: VehicleFormPageProps) => {
 					</IonItem>
 					<IonItem
 						button
-						routerLink={routes.accident.vehicles.licensePlate.form}>
+						routerLink={routes.accident.vehicles.licensePlate.form}
+						onClick={() => {
+							context.setVehicle(vehicle);
+						}}>
 						<IonIcon color='medium' icon='card-outline' slot='start' />
 						<IonLabel>
 							<h2>Matricula del vehiculo</h2>

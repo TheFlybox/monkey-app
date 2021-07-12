@@ -911,6 +911,14 @@ var _notesFormView = require("views/accident/notes/notes-form.view");
 var _notesFormViewDefault = parcelHelpers.interopDefault(_notesFormView);
 var _driverFormView = require("views/accident/vehicles/driver/driver-form.view");
 var _driverFormViewDefault = parcelHelpers.interopDefault(_driverFormView);
+var _licensePlateFormView = require("views/accident/vehicles/license-plate/license-plate-form.view");
+var _licensePlateFormViewDefault = parcelHelpers.interopDefault(_licensePlateFormView);
+var _loginFormView = require("views/login/login-form.view");
+var _loginFormViewDefault = parcelHelpers.interopDefault(_loginFormView);
+var _signUpFormView = require("views/sign-up/sign-up-form.view");
+var _signUpFormViewDefault = parcelHelpers.interopDefault(_signUpFormView);
+var _forgotPasswordFormView = require("views/forgot-password/forgot-password-form.view");
+var _forgotPasswordFormViewDefault = parcelHelpers.interopDefault(_forgotPasswordFormView);
 // Containers
 var _accidentFormContainer = require("containers/accident-form.container");
 var _accidentFormContainerDefault = parcelHelpers.interopDefault(_accidentFormContainer);
@@ -918,25 +926,25 @@ function Main() {
     return(/*#__PURE__*/ _reactDefault.default.createElement(_accidentFormContainerDefault.default, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 41
+            lineNumber: 45
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonApp, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 42
+            lineNumber: 46
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouter.IonReactRouter, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 43
+            lineNumber: 47
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonRouterOutlet, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 44
+            lineNumber: 48
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -945,7 +953,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 45
+            lineNumber: 49
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -954,7 +962,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 46
+            lineNumber: 50
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -963,7 +971,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 51
+            lineNumber: 55
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -972,7 +980,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 56
+            lineNumber: 60
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -981,7 +989,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 61
+            lineNumber: 65
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -990,7 +998,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 66
+            lineNumber: 70
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -999,7 +1007,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 71
+            lineNumber: 75
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -1008,7 +1016,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 76
+            lineNumber: 80
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -1017,7 +1025,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 81
+            lineNumber: 85
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -1026,7 +1034,7 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 86
+            lineNumber: 90
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -1035,7 +1043,43 @@ function Main() {
         exact: true,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 91
+            lineNumber: 95
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: _routesDefault.default.accident.vehicles.licensePlate.form,
+        component: _licensePlateFormViewDefault.default,
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
+            lineNumber: 100
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: _routesDefault.default.login.form,
+        component: _loginFormViewDefault.default,
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
+            lineNumber: 105
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: _routesDefault.default.signUp.form,
+        component: _signUpFormViewDefault.default,
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
+            lineNumber: 110
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: _routesDefault.default.forgotPassword.form,
+        component: _forgotPasswordFormViewDefault.default,
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
+            lineNumber: 115
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Redirect, {
@@ -1044,7 +1088,7 @@ function Main() {
         to: _routesDefault.default.home,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-            lineNumber: 97
+            lineNumber: 121
         },
         __self: this
     }))))));
@@ -1053,7 +1097,7 @@ _c = Main;
 _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElement(Main, {
     __source: {
         fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\main.tsx",
-        lineNumber: 105
+        lineNumber: 129
     },
     __self: undefined
 }), document.querySelector('#root'));
@@ -1065,7 +1109,7 @@ $RefreshReg$(_c, "Main");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"4qcR1","react-dom":"7asZu","react-router-dom":"18scP","@ionic/react":"49qHA","@ionic/react-router":"6wtj9","constants/routes":"5sOzO","@ionic/react/css/core.css":"5cqAk","@ionic/react/css/normalize.css":"43Zkm","@ionic/react/css/structure.css":"1wobX","@ionic/react/css/typography.css":"6SXJW","@ionic/react/css/padding.css":"3ESh3","@ionic/react/css/float-elements.css":"651uo","@ionic/react/css/text-alignment.css":"5yz2P","@ionic/react/css/text-transformation.css":"3f39N","@ionic/react/css/flex-utils.css":"5gLM4","@ionic/react/css/display.css":"6xsTw","assets/global.css":"6DmKB","views/home/home.view":"6kPXU","views/accident/accident-create.view":"1e2ws","views/accident/accident-edit.view":"1ysOo","views/accident/vehicles/vehicles-list.view":"24dC1","views/accident/vehicles/vehicles-create.view":"3TPF7","views/accident/vehicles/vehicles-edit.view":"7mBnB","containers/accident-form.container":"5vbcC","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","views/accident/vehicles/passengers/passengers-list.view":"5ol2o","views/accident/vehicles/passengers/passengers-create.view":"2ZEMo","views/accident/vehicles/passengers/passengers-edit.view":"5vc2R","views/accident/notes/notes-form.view":"6G7dH","views/accident/vehicles/driver/driver-form.view":"5Wc9v"}],"4qcR1":[function(require,module,exports) {
+},{"react":"4qcR1","react-dom":"7asZu","react-router-dom":"18scP","@ionic/react":"49qHA","@ionic/react-router":"6wtj9","constants/routes":"5sOzO","@ionic/react/css/core.css":"5cqAk","@ionic/react/css/normalize.css":"43Zkm","@ionic/react/css/structure.css":"1wobX","@ionic/react/css/typography.css":"6SXJW","@ionic/react/css/padding.css":"3ESh3","@ionic/react/css/float-elements.css":"651uo","@ionic/react/css/text-alignment.css":"5yz2P","@ionic/react/css/text-transformation.css":"3f39N","@ionic/react/css/flex-utils.css":"5gLM4","@ionic/react/css/display.css":"6xsTw","assets/global.css":"6DmKB","views/home/home.view":"6kPXU","views/accident/accident-create.view":"1e2ws","views/accident/accident-edit.view":"1ysOo","views/accident/vehicles/vehicles-list.view":"24dC1","views/accident/vehicles/vehicles-create.view":"3TPF7","views/accident/vehicles/vehicles-edit.view":"7mBnB","views/accident/vehicles/passengers/passengers-list.view":"5ol2o","views/accident/vehicles/passengers/passengers-create.view":"2ZEMo","views/accident/vehicles/passengers/passengers-edit.view":"5vc2R","views/accident/notes/notes-form.view":"6G7dH","views/accident/vehicles/driver/driver-form.view":"5Wc9v","views/accident/vehicles/license-plate/license-plate-form.view":"6Ngxb","views/login/login-form.view":"7yMWN","containers/accident-form.container":"5vbcC","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","views/sign-up/sign-up-form.view":"4tpoR","views/forgot-password/forgot-password-form.view":"2BWoC"}],"4qcR1":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
@@ -35974,6 +36018,15 @@ exports.default = {
             list: '/accident/photos/list',
             upload: '/accident/photos/upload'
         }
+    },
+    login: {
+        form: '/login'
+    },
+    signUp: {
+        form: '/sign-up'
+    },
+    forgotPassword: {
+        form: '/forgot-password'
     }
 };
 
@@ -36181,7 +36234,7 @@ const menuItems = [
     {
         text: 'Cerrar sesion',
         icon: 'log-out-outline',
-        url: ''
+        url: _routesDefault.default.login.form
     }
 ];
 
@@ -37114,7 +37167,7 @@ $RefreshReg$(_c, "AccidentForm");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"4qcR1","@ionic/react":"49qHA","constants/routes":"5sOzO","models/accident.model":"20Vlz","contexts/accident-form.context":"3rPyW","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","react-router":"1A22w","components/digital-clock/digital-clock.component":"7M1LH"}],"7M1LH":[function(require,module,exports) {
+},{"react":"4qcR1","@ionic/react":"49qHA","constants/routes":"5sOzO","models/accident.model":"20Vlz","contexts/accident-form.context":"3rPyW","react-router":"1A22w","components/digital-clock/digital-clock.component":"7M1LH","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"7M1LH":[function(require,module,exports) {
 var helpers = require("../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -37581,30 +37634,35 @@ const VehicleFormPage = (props)=>{
     }, [
         vehicle
     ]);
+    _react.useEffect(()=>{
+        setVehicle(context.vehicle);
+    }, [
+        context.vehicle
+    ]);
     return(/*#__PURE__*/ _reactDefault.default.createElement(_react1.IonPage, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 46
+            lineNumber: 50
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonHeader, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 47
+            lineNumber: 51
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonToolbar, {
         color: "light",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 48
+            lineNumber: 52
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButtons, {
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 49
+            lineNumber: 53
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonBackButton, {
@@ -37612,20 +37670,20 @@ const VehicleFormPage = (props)=>{
         icon: "close-outline",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 50
+            lineNumber: 54
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonTitle, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 54
+            lineNumber: 58
         },
         __self: undefined
     }, props.title), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButtons, {
         slot: "end",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 55
+            lineNumber: 59
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
@@ -37637,7 +37695,7 @@ const VehicleFormPage = (props)=>{
         },
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 56
+            lineNumber: 60
         },
         __self: undefined
     }, "Listo", /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37645,26 +37703,26 @@ const VehicleFormPage = (props)=>{
         icon: "checkmark-done",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 64
+            lineNumber: 68
         },
         __self: undefined
     }))))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonContent, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 69
+            lineNumber: 73
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonList, {
         lines: "full",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 70
+            lineNumber: 74
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 71
+            lineNumber: 75
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37673,13 +37731,13 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 72
+            lineNumber: 76
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 73
+            lineNumber: 77
         },
         __self: undefined
     }, "Marca"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelect, {
@@ -37692,7 +37750,7 @@ const VehicleFormPage = (props)=>{
         ,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 74
+            lineNumber: 78
         },
         __self: undefined
     }, vehicleService.getMakes().map((x, i)=>{
@@ -37701,14 +37759,14 @@ const VehicleFormPage = (props)=>{
             key: i,
             __source: {
                 fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-                lineNumber: 82
+                lineNumber: 86
             },
             __self: undefined
         }, x));
     }))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 89
+            lineNumber: 93
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37717,13 +37775,13 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 90
+            lineNumber: 94
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 91
+            lineNumber: 95
         },
         __self: undefined
     }, "Modelo"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelect, {
@@ -37736,7 +37794,7 @@ const VehicleFormPage = (props)=>{
         ,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 92
+            lineNumber: 96
         },
         __self: undefined
     }, vehicleService.getModels().map((x, i)=>{
@@ -37745,14 +37803,14 @@ const VehicleFormPage = (props)=>{
             key: i,
             __source: {
                 fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-                lineNumber: 100
+                lineNumber: 104
             },
             __self: undefined
         }, x));
     }))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 107
+            lineNumber: 111
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37761,13 +37819,13 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 108
+            lineNumber: 112
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 109
+            lineNumber: 113
         },
         __self: undefined
     }, "Color"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelect, {
@@ -37780,7 +37838,7 @@ const VehicleFormPage = (props)=>{
         ,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 110
+            lineNumber: 114
         },
         __self: undefined
     }, vehicleService.getColors().map((x, i)=>{
@@ -37789,14 +37847,14 @@ const VehicleFormPage = (props)=>{
             key: i,
             __source: {
                 fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-                lineNumber: 118
+                lineNumber: 122
             },
             __self: undefined
         }, x));
     }))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 125
+            lineNumber: 129
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37805,13 +37863,13 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 126
+            lineNumber: 130
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 127
+            lineNumber: 131
         },
         __self: undefined
     }, "A\xf1o"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelect, {
@@ -37824,7 +37882,7 @@ const VehicleFormPage = (props)=>{
         ,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 128
+            lineNumber: 132
         },
         __self: undefined
     }, vehicleService.getYears().map((x, i)=>{
@@ -37833,14 +37891,14 @@ const VehicleFormPage = (props)=>{
             key: i,
             __source: {
                 fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-                lineNumber: 136
+                lineNumber: 140
             },
             __self: undefined
         }, x));
     }))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 143
+            lineNumber: 147
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37849,13 +37907,13 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 144
+            lineNumber: 148
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 145
+            lineNumber: 149
         },
         __self: undefined
     }, "Estado del vehiculo"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelect, {
@@ -37868,7 +37926,7 @@ const VehicleFormPage = (props)=>{
         ,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 146
+            lineNumber: 150
         },
         __self: undefined
     }, vehicleService.getVehicleStatus().map((x, i)=>{
@@ -37877,16 +37935,19 @@ const VehicleFormPage = (props)=>{
             key: i,
             __source: {
                 fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-                lineNumber: 154
+                lineNumber: 158
             },
             __self: undefined
         }, x));
     }))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
         button: true,
         routerLink: _routesDefault.default.accident.vehicles.licensePlate.form,
+        onClick: ()=>{
+            context.setVehicle(vehicle);
+        },
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 161
+            lineNumber: 165
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37895,19 +37956,19 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 164
+            lineNumber: 171
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 165
+            lineNumber: 172
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h2", {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 166
+            lineNumber: 173
         },
         __self: undefined
     }, "Matricula del vehiculo"), /*#__PURE__*/ _reactDefault.default.createElement("small", {
@@ -37916,7 +37977,7 @@ const VehicleFormPage = (props)=>{
         },
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 167
+            lineNumber: 174
         },
         __self: undefined
     }, vehicle.licensePlate || 'Vacio')), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37926,7 +37987,7 @@ const VehicleFormPage = (props)=>{
         icon: "chevron-forward",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 171
+            lineNumber: 178
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
@@ -37934,7 +37995,7 @@ const VehicleFormPage = (props)=>{
         routerLink: _routesDefault.default.accident.vehicles.passengers.list,
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 177
+            lineNumber: 184
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37943,13 +38004,13 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 178
+            lineNumber: 185
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 179
+            lineNumber: 186
         },
         __self: undefined
     }, "Pasajeros"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37959,21 +38020,21 @@ const VehicleFormPage = (props)=>{
         icon: "chevron-forward",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 180
+            lineNumber: 187
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonChip, {
         color: "primary",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 186
+            lineNumber: 193
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         color: "primary",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 187
+            lineNumber: 194
         },
         __self: undefined
     }, context.vehicle.passengers.length))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
@@ -37984,7 +38045,7 @@ const VehicleFormPage = (props)=>{
         },
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 192
+            lineNumber: 199
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -37993,19 +38054,19 @@ const VehicleFormPage = (props)=>{
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 198
+            lineNumber: 205
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 199
+            lineNumber: 206
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h2", {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 200
+            lineNumber: 207
         },
         __self: undefined
     }, "Conductor"), /*#__PURE__*/ _reactDefault.default.createElement("small", {
@@ -38014,7 +38075,7 @@ const VehicleFormPage = (props)=>{
         },
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 201
+            lineNumber: 208
         },
         __self: undefined
     }, vehicle.driver.firstName || 'Vacio')), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
@@ -38024,32 +38085,32 @@ const VehicleFormPage = (props)=>{
         icon: "chevron-forward",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 205
+            lineNumber: 212
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 211
+            lineNumber: 218
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButtons, {
         slot: "start",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 212
+            lineNumber: 219
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
         color: "danger",
         __source: {
             fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\vehicles-form.view.tsx",
-            lineNumber: 213
+            lineNumber: 220
         },
         __self: undefined
     }, "Reiniciar")))))));
 };
-_s(VehicleFormPage, "vLYx994bW0+YnZ5JpdXMwVD7cTg=", false, function() {
+_s(VehicleFormPage, "J/438j6YwVQi3Thw31aT6Zw6V1M=", false, function() {
     return [_reactRouter.useHistory];
 });
 _c = VehicleFormPage;
@@ -44745,8 +44806,8 @@ module.exports = function(iterations, keylen) {
 };
 
 },{}],"4krrT":[function(require,module,exports) {
-var global = arguments[3];
 var process = require("process");
+var global = arguments[3];
 var defaultEncoding;
 /* istanbul ignore next */ if (global.process && global.process.browser) defaultEncoding = 'utf-8';
 else if (global.process && global.process.version) {
@@ -59978,96 +60039,7 @@ $RefreshReg$(_c, "VehiclesEdit");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"4qcR1","./vehicles-form.view":"2D0cg","contexts/accident-form.context":"3rPyW","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"5vbcC":[function(require,module,exports) {
-var helpers = require("../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-helpers.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _accidentFormContext = require("contexts/accident-form.context");
-var _accidentFormContextDefault = parcelHelpers.interopDefault(_accidentFormContext);
-var _accidentModel = require("models/accident.model");
-var _accidentModelDefault = parcelHelpers.interopDefault(_accidentModel);
-var _vehicleModel = require("models/vehicle.model");
-var _vehicleModelDefault = parcelHelpers.interopDefault(_vehicleModel);
-var _passengerModel = require("models/passenger.model");
-var _passengerModelDefault = parcelHelpers.interopDefault(_passengerModel);
-var _s = $RefreshSig$();
-function AccidentFormContainer(props) {
-    _s();
-    const [accident, setAccident] = _react.useState(new _accidentModelDefault.default());
-    const [vehicle, setVehicle] = _react.useState(new _vehicleModelDefault.default());
-    const [passenger, setPassenger] = _react.useState(new _passengerModelDefault.default());
-    const deleteVehicle = (item)=>{
-        let temp = {
-            ...accident
-        };
-        let index = temp.vehicles.findIndex((x)=>x.id === item.id
-        );
-        temp.vehicles.splice(index, 1);
-        setAccident(temp);
-    };
-    const deletePassenger = (item)=>{
-        let temp = {
-            ...vehicle
-        };
-        let index = temp.passengers.findIndex((x)=>x.id === item.id
-        );
-        temp.passengers.splice(index, 1);
-        setVehicle(temp);
-    };
-    return(/*#__PURE__*/ _reactDefault.default.createElement(_accidentFormContextDefault.default.Provider, {
-        value: {
-            accident: accident,
-            vehicle: vehicle,
-            passenger: passenger,
-            setAccident: setAccident,
-            setVehicle: setVehicle,
-            setPassenger: setPassenger,
-            deleteVehicle: deleteVehicle,
-            deletePassenger: deletePassenger
-        },
-        __source: {
-            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\containers\\accident-form.container.tsx",
-            lineNumber: 28
-        },
-        __self: this
-    }, props.children));
-}
-exports.default = AccidentFormContainer;
-_s(AccidentFormContainer, "VFhc3z/yeBSXnOX+pyz+wZqQdfU=");
-_c = AccidentFormContainer;
-var _c;
-$RefreshReg$(_c, "AccidentFormContainer");
-
-  helpers.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"4qcR1","contexts/accident-form.context":"3rPyW","models/accident.model":"20Vlz","models/vehicle.model":"6zega","models/passenger.model":"2tSUm","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"2tSUm":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Passenger
-);
-class Passenger {
-    constructor(){
-        this.id = '';
-        this.firstName = '';
-        this.lastName = '';
-        this.sex = '';
-        this.birthdate = '';
-        this.status = '';
-        this.idcard = '';
-    }
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT"}],"5ol2o":[function(require,module,exports) {
+},{"react":"4qcR1","./vehicles-form.view":"2D0cg","contexts/accident-form.context":"3rPyW","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"5ol2o":[function(require,module,exports) {
 var helpers = require("../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -60281,7 +60253,24 @@ $RefreshReg$(_c, "PassengersList");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"4qcR1","@ionic/react":"49qHA","components/empty-list/empty-list.component":"6k0QR","constants/routes":"5sOzO","contexts/accident-form.context":"3rPyW","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","models/passenger.model":"2tSUm"}],"2ZEMo":[function(require,module,exports) {
+},{"react":"4qcR1","@ionic/react":"49qHA","components/empty-list/empty-list.component":"6k0QR","constants/routes":"5sOzO","contexts/accident-form.context":"3rPyW","models/passenger.model":"2tSUm","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"2tSUm":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Passenger
+);
+class Passenger {
+    constructor(){
+        this.id = '';
+        this.firstName = '';
+        this.lastName = '';
+        this.sex = '';
+        this.birthdate = '';
+        this.status = '';
+        this.idcard = '';
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT"}],"2ZEMo":[function(require,module,exports) {
 var helpers = require("../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -60735,7 +60724,7 @@ $RefreshReg$(_c, "PassengersForm");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"4qcR1","@ionic/react":"49qHA","constants/routes":"5sOzO","react-router":"1A22w","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","models/passenger.model":"2tSUm"}],"5vc2R":[function(require,module,exports) {
+},{"react":"4qcR1","@ionic/react":"49qHA","constants/routes":"5sOzO","react-router":"1A22w","models/passenger.model":"2tSUm","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"5vc2R":[function(require,module,exports) {
 var helpers = require("../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -61406,5 +61395,1274 @@ $RefreshReg$(_c, "DriversForm");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"4qcR1","@ionic/react":"49qHA","constants/routes":"5sOzO","react-router":"1A22w","models/driver.model":"czfpz","contexts/accident-form.context":"3rPyW","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}]},["3PFpv","GfLKX","VNGaH"], "VNGaH", "parcelRequired885")
+},{"react":"4qcR1","@ionic/react":"49qHA","constants/routes":"5sOzO","react-router":"1A22w","models/driver.model":"czfpz","contexts/accident-form.context":"3rPyW","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"6Ngxb":[function(require,module,exports) {
+var helpers = require("../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _react1 = require("@ionic/react");
+var _routes = require("constants/routes");
+var _routesDefault = parcelHelpers.interopDefault(_routes);
+var _accidentFormContext = require("contexts/accident-form.context");
+var _accidentFormContextDefault = parcelHelpers.interopDefault(_accidentFormContext);
+var _reactRouter = require("react-router");
+var _s = $RefreshSig$();
+function LicensePlateForm() {
+    _s();
+    const context = _react.useContext(_accidentFormContextDefault.default);
+    const [preset] = _react1.useIonAlert();
+    const [license, setLicense] = _react.useState(context.vehicle.licensePlate);
+    const history = _reactRouter.useHistory();
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_react1.IonPage, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 29
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonHeader, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 30
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonToolbar, {
+        color: "light",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 31
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButtons, {
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 32
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonBackButton, {
+        defaultHref: _routesDefault.default.default,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 33
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonTitle, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 35
+        },
+        __self: this
+    }, "Matricula"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButtons, {
+        slot: "end",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 36
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        color: "primary",
+        onClick: ()=>{
+            let temp = context.vehicle;
+            temp.licensePlate = license;
+            context.setVehicle(temp);
+            history.goBack();
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 37
+        },
+        __self: this
+    }, "Listo", /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        slot: "start",
+        icon: "checkmark-done",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 46
+        },
+        __self: this
+    }))))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonContent, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 53
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonList, {
+        lines: "full",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 54
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 55
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "stacked",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 56
+        },
+        __self: this
+    }, "Matricula del accidente"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonTextarea, {
+        placeholder: "Inserta la matricula del vehiculo",
+        rows: 5,
+        value: license,
+        onIonChange: (e)=>setLicense(e.detail.value)
+        ,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 57
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 63
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButtons, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 64
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        color: "danger",
+        onClick: ()=>{
+            preset({
+                header: 'Limpiar',
+                message: 'Estas seguro?',
+                buttons: [
+                    'Cancelar',
+                    {
+                        text: 'Ok',
+                        handler: (d)=>setLicense('')
+                    }, 
+                ],
+                onDidDismiss: (e)=>console.log('did dismiss')
+            });
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\accident\\vehicles\\license-plate\\license-plate-form.view.tsx",
+            lineNumber: 65
+        },
+        __self: this
+    }, "Limpiar")))))));
+}
+exports.default = LicensePlateForm;
+_s(LicensePlateForm, "Hh0RSd62U1G0OjkzKHlf1gKdhDU=", false, function() {
+    return [_react1.useIonAlert, _reactRouter.useHistory];
+});
+_c = LicensePlateForm;
+var _c;
+$RefreshReg$(_c, "LicensePlateForm");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"4qcR1","@ionic/react":"49qHA","constants/routes":"5sOzO","contexts/accident-form.context":"3rPyW","react-router":"1A22w","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"7yMWN":[function(require,module,exports) {
+var helpers = require("../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _react1 = require("@ionic/react");
+var _routes = require("constants/routes");
+var _routesDefault = parcelHelpers.interopDefault(_routes);
+function LoginForm() {
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_react1.IonPage, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 18
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonContent, {
+        color: "light",
+        className: "login-content",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 19
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        src: "https://www.graphicsprings.com/filestorage/stencils/e53f8b7990e2dbdb16d6998b225cfcc7.png?width=500&height=500",
+        alt: "",
+        style: {
+            width: 200,
+            height: 200,
+            margin: '0 auto',
+            display: 'block',
+            objectFit: 'cover'
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 20
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-left ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 31
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-center",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 32
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        style: {
+            fontSize: 32,
+            fontWeight: 700
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 33
+        },
+        __self: this
+    }, "SISTRANT"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        style: {
+            fontSize: 18,
+            fontWeight: 400,
+            color: '#888'
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 36
+        },
+        __self: this
+    }, "Para comenzar por favor iniciar sesion"))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 41
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 42
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "mail-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 43
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 44
+        },
+        __self: this
+    }, "Correo electronico"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "text",
+        placeholder: "test@test.com",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 45
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 47
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "lock-closed-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 48
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 49
+        },
+        __self: this
+    }, "Contrase\xf1a"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "password",
+        placeholder: "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 50
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding-top",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 52
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonRouterLink, {
+        routerLink: _routesDefault.default.forgotPassword.form,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 53
+        },
+        __self: this
+    }, "\xbfHas olvidado tu contrase\xf1a?"))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 58
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        color: "primary",
+        expand: "block",
+        fill: "solid",
+        size: "large",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 59
+        },
+        __self: this
+    }, "Iniciar sesion"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 62
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 63
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-center ion-padding-bottom",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 64
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("span", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 65
+        },
+        __self: this
+    }, "\xbfNo tienes una cuenta?")), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        routerLink: _routesDefault.default.signUp.form,
+        color: "primary",
+        expand: "block",
+        fill: "outline",
+        size: "large",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\login\\login-form.view.tsx",
+            lineNumber: 67
+        },
+        __self: this
+    }, "Registrate")))));
+}
+exports.default = LoginForm;
+_c = LoginForm;
+var _c;
+$RefreshReg$(_c, "LoginForm");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"4qcR1","@ionic/react":"49qHA","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","constants/routes":"5sOzO"}],"5vbcC":[function(require,module,exports) {
+var helpers = require("../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _accidentFormContext = require("contexts/accident-form.context");
+var _accidentFormContextDefault = parcelHelpers.interopDefault(_accidentFormContext);
+var _accidentModel = require("models/accident.model");
+var _accidentModelDefault = parcelHelpers.interopDefault(_accidentModel);
+var _vehicleModel = require("models/vehicle.model");
+var _vehicleModelDefault = parcelHelpers.interopDefault(_vehicleModel);
+var _passengerModel = require("models/passenger.model");
+var _passengerModelDefault = parcelHelpers.interopDefault(_passengerModel);
+var _s = $RefreshSig$();
+function AccidentFormContainer(props) {
+    _s();
+    const [accident, setAccident] = _react.useState(new _accidentModelDefault.default());
+    const [vehicle, setVehicle] = _react.useState(new _vehicleModelDefault.default());
+    const [passenger, setPassenger] = _react.useState(new _passengerModelDefault.default());
+    const deleteVehicle = (item)=>{
+        let temp = {
+            ...accident
+        };
+        let index = temp.vehicles.findIndex((x)=>x.id === item.id
+        );
+        temp.vehicles.splice(index, 1);
+        setAccident(temp);
+    };
+    const deletePassenger = (item)=>{
+        let temp = {
+            ...vehicle
+        };
+        let index = temp.passengers.findIndex((x)=>x.id === item.id
+        );
+        temp.passengers.splice(index, 1);
+        setVehicle(temp);
+    };
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_accidentFormContextDefault.default.Provider, {
+        value: {
+            accident: accident,
+            vehicle: vehicle,
+            passenger: passenger,
+            setAccident: setAccident,
+            setVehicle: setVehicle,
+            setPassenger: setPassenger,
+            deleteVehicle: deleteVehicle,
+            deletePassenger: deletePassenger
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\containers\\accident-form.container.tsx",
+            lineNumber: 28
+        },
+        __self: this
+    }, props.children));
+}
+exports.default = AccidentFormContainer;
+_s(AccidentFormContainer, "VFhc3z/yeBSXnOX+pyz+wZqQdfU=");
+_c = AccidentFormContainer;
+var _c;
+$RefreshReg$(_c, "AccidentFormContainer");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"4qcR1","contexts/accident-form.context":"3rPyW","models/accident.model":"20Vlz","models/vehicle.model":"6zega","models/passenger.model":"2tSUm","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO"}],"4tpoR":[function(require,module,exports) {
+var helpers = require("../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _react1 = require("@ionic/react");
+var _routes = require("constants/routes");
+var _routesDefault = parcelHelpers.interopDefault(_routes);
+var _s = $RefreshSig$();
+function SignUpForm() {
+    _s();
+    const slideOpts = {
+        initialSlide: 1,
+        speed: 400
+    };
+    const [present] = _react1.useIonLoading();
+    const slideRef = _react.useRef();
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_react1.IonPage, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 34
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonContent, {
+        color: "light",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 35
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSlides, {
+        pager: true,
+        options: slideOpts,
+        ref: slideRef,
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 36
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSlide, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 37
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "content",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 38
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        src: "https://www.graphicsprings.com/filestorage/stencils/e53f8b7990e2dbdb16d6998b225cfcc7.png?width=500&height=500",
+        alt: "",
+        style: {
+            width: 200,
+            height: 200,
+            margin: '0 auto',
+            display: 'block',
+            objectFit: 'cover'
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 39
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-left ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 50
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-center",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 51
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        style: {
+            fontSize: 32,
+            fontWeight: 700
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 52
+        },
+        __self: this
+    }, "SISTRANT"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        style: {
+            fontSize: 18,
+            fontWeight: 400,
+            color: '#888'
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 53
+        },
+        __self: this
+    }, "Registro de nuevos usuarios"))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 58
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 59
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "card-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 60
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 61
+        },
+        __self: this
+    }, "Ingresa tu cedula"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "text",
+        placeholder: "123-456789-2",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 62
+        },
+        __self: this
+    }))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 65
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        color: "primary",
+        expand: "block",
+        fill: "solid",
+        size: "large",
+        onClick: ()=>{
+            present({
+                duration: 3000,
+                message: 'Cargando...',
+                spinner: 'circular',
+                onDidDismiss: ()=>slideRef.current.slideNext()
+            });
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 66
+        },
+        __self: this
+    }, "Siguiente", /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        size: "small",
+        icon: "chevron-forward-outline",
+        slot: "end",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 80
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 85
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 86
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-center ion-padding-bottom",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 87
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("span", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 88
+        },
+        __self: this
+    }, "\xbfYa tienes una cuenta?")), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        routerLink: _routesDefault.default.login.form,
+        color: "primary",
+        expand: "block",
+        fill: "outline",
+        size: "large",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 90
+        },
+        __self: this
+    }, "Inicia sesion")))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSlide, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 101
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "content",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 102
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 103
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonListHeader, {
+        color: "medium",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 104
+        },
+        __self: this
+    }, "Informacion de usuario"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 107
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 108
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "text-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 109
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 110
+        },
+        __self: this
+    }, "Nombre"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "text",
+        placeholder: "Ej.: John",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 111
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 113
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 114
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "text-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 115
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 116
+        },
+        __self: this
+    }, "Apellido"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "text",
+        placeholder: "Ej.: Smith",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 117
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 119
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 120
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "calendar-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 121
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 122
+        },
+        __self: this
+    }, "Fecha de nacimiento"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonDatetime, {
+        displayFormat: "MMMM DD YYYY",
+        placeholder: "",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 123
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 127
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 128
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "male-female-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 129
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 130
+        },
+        __self: this
+    }, "Sexo"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelect, {
+        placeholder: "Selecciona",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 131
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelectOption, {
+        value: "female",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 132
+        },
+        __self: this
+    }, "Femenino"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonSelectOption, {
+        value: "male",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 133
+        },
+        __self: this
+    }, "Masculino"))), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 136
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonListHeader, {
+        color: "medium",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 137
+        },
+        __self: this
+    }, "Cuenta"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 138
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 139
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "mail-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 140
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 141
+        },
+        __self: this
+    }, "Correo electronico"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "email",
+        placeholder: "Ej.: test@test.com",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 142
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 146
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 147
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "lock-closed-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 148
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 149
+        },
+        __self: this
+    }, "Contrase\xf1a"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "password",
+        placeholder: "Ej.: 12345678",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 150
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 154
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 155
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "lock-closed-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 156
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 157
+        },
+        __self: this
+    }, "Confirmar contrase\xf1a"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "password",
+        placeholder: "Ej.: 12345678",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 158
+        },
+        __self: this
+    }))), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonGrid, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 163
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonRow, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 164
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonCol, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 165
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        expand: "block",
+        fill: "outline",
+        size: "default",
+        onClick: ()=>{
+            slideRef.current.slidePrev();
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 166
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        slot: "start",
+        icon: "chevron-back-outline",
+        size: "small",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 173
+        },
+        __self: this
+    }), "Atras")), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonCol, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 180
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        expand: "block",
+        fill: "solid",
+        size: "default",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 181
+        },
+        __self: this
+    }, "Finalizar", /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "checkmark-done-outline",
+        size: "small",
+        slot: "end",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 183
+        },
+        __self: this
+    }))))), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\sign-up\\sign-up-form.view.tsx",
+            lineNumber: 191
+        },
+        __self: this
+    })))))));
+}
+exports.default = SignUpForm;
+_s(SignUpForm, "n5huqJ2k6oF0W7PV8fW7YcCHzd0=", false, function() {
+    return [_react1.useIonLoading];
+});
+_c = SignUpForm;
+var _c;
+$RefreshReg$(_c, "SignUpForm");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"4qcR1","@ionic/react":"49qHA","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","constants/routes":"5sOzO"}],"2BWoC":[function(require,module,exports) {
+var helpers = require("../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _react1 = require("@ionic/react");
+var _reactRouter = require("react-router");
+var _s = $RefreshSig$();
+function ForgotPasswordForm() {
+    _s();
+    const [present] = _react1.useIonLoading();
+    const history = _reactRouter.useHistory();
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_react1.IonPage, {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 20
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonContent, {
+        color: "light",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 21
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "content",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 22
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        src: "https://www.graphicsprings.com/filestorage/stencils/e53f8b7990e2dbdb16d6998b225cfcc7.png?width=500&height=500",
+        alt: "",
+        style: {
+            width: 200,
+            height: 200,
+            margin: '0 auto',
+            display: 'block',
+            objectFit: 'cover'
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 23
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-left ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 34
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-text-center",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 35
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        style: {
+            fontSize: 32,
+            fontWeight: 700
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 36
+        },
+        __self: this
+    }, "SISTRANT"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        style: {
+            fontSize: 18,
+            fontWeight: 400,
+            color: '#888'
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 37
+        },
+        __self: this
+    }, "Asistente contrase\xf1a olvidada"))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 42
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonItem, {
+        className: "shadow",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 43
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        icon: "mail-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 44
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonLabel, {
+        position: "floating",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 45
+        },
+        __self: this
+    }, "Ingresa tu correo electronico"), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonInput, {
+        type: "text",
+        placeholder: "123-456789-2",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 48
+        },
+        __self: this
+    }))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "ion-padding",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 51
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        color: "primary",
+        expand: "block",
+        fill: "solid",
+        size: "large",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 52
+        },
+        __self: this
+    }, "Siguiente", /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        size: "small",
+        icon: "chevron-forward-outline",
+        slot: "end",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 54
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 59
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonButton, {
+        color: "primary",
+        expand: "block",
+        fill: "outline",
+        size: "large",
+        onClick: ()=>{
+            history.goBack();
+        },
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 60
+        },
+        __self: this
+    }, "Volver", /*#__PURE__*/ _reactDefault.default.createElement(_react1.IonIcon, {
+        size: "small",
+        icon: "chevron-back-outline",
+        slot: "start",
+        __source: {
+            fileName: "C:\\Users\\Gorgojoso\\Desktop\\monkey\\src\\views\\forgot-password\\forgot-password-form.view.tsx",
+            lineNumber: 69
+        },
+        __self: this
+    })))))));
+}
+exports.default = ForgotPasswordForm;
+_s(ForgotPasswordForm, "WE2pm35VGdJqrMN4Ep2Nwa7OCG8=", false, function() {
+    return [_react1.useIonLoading, _reactRouter.useHistory];
+});
+_c = ForgotPasswordForm;
+var _c;
+$RefreshReg$(_c, "ForgotPasswordForm");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"4qcR1","@ionic/react":"49qHA","@parcel/transformer-js/src/esmodule-helpers.js":"7dbXT","../../../node_modules/.pnpm/@parcel+transformer-react-refresh-wrap@2.0.0-beta.3.1/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZPpO","react-router":"1A22w"}]},["3PFpv","GfLKX","VNGaH"], "VNGaH", "parcelRequired885")
 

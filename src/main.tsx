@@ -32,6 +32,10 @@ import PassengersCreate from 'views/accident/vehicles/passengers/passengers-crea
 import PassengersEdit from 'views/accident/vehicles/passengers/passengers-edit.view';
 import NotesForm from 'views/accident/notes/notes-form.view';
 import DriversForm from 'views/accident/vehicles/driver/driver-form.view';
+import LicensePlateForm from 'views/accident/vehicles/license-plate/license-plate-form.view';
+import LoginForm from 'views/login/login-form.view';
+import SignUpForm from 'views/sign-up/sign-up-form.view';
+import ForgotPasswordForm from 'views/forgot-password/forgot-password-form.view';
 
 // Containers
 import AccidentFormContainer from 'containers/accident-form.container';
@@ -91,6 +95,26 @@ function Main() {
 						<Route
 							path={routes.accident.vehicles.driver.form}
 							component={DriversForm}
+							exact={true}
+						/>
+						<Route
+							path={routes.accident.vehicles.licensePlate.form}
+							component={LicensePlateForm}
+							exact={true}
+						/>
+						<Route
+							path={routes.login.form}
+							component={LoginForm}
+							exact={true}
+						/>
+						<Route
+							path={routes.signUp.form}
+							component={SignUpForm}
+							exact={true}
+						/>
+						<Route
+							path={routes.forgotPassword.form}
+							component={ForgotPasswordForm}
 							exact={true}
 						/>
 
